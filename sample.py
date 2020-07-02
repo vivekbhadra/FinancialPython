@@ -6,7 +6,8 @@ import pandas as pd
 def test_run():
     """Function called by Test Run."""
     df = pd.read_csv("data/AAPL.csv")
-    print df.head()
+    print df.head() # prints first 5 lines from the file
+    print df.tail() # prints last 5 lines from the file
 
 
 if __name__ == "__main__":
