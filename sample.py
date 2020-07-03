@@ -50,3 +50,7 @@ def test_run():
 
 if __name__ == "__main__":
     test_run()
+
+# Axis in DataFrame
+# A DataFrame object has two axes: “axis 0” and “axis 1”. 
+# “axis 0” represents rows and “axis 1” represents columns.
